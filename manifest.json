@@ -1,0 +1,22 @@
+{
+    "manifest_version" : 2,
+    "name": "JAKMAN ASSIST",
+    "description": "JAKMAN ASSIST is a powerful tool designed to enhance your online shopping experience. This extension combines the convenience of real-time price tracking, intelligent coupon prediction, and web scraping capabilities to help you find the best coupon deals.",
+    "author":"JAKMAN bros",
+    "version": "0.1",
+    "permissions": [
+        "activeTab"
+      ],
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_popup": "views/jakman_assist.html",
+        "default_title": "JAKMAN Shopping assistant!"
+    },
+
+    "content_scripts":[
+        {
+         "matches":["*://amazon.co.uk/*"],
+         "js":["scripts/content.js"]
+        }
+       ]
+}
