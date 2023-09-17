@@ -3,7 +3,7 @@
     "name": "JAKMAN ASSIST",
     "description": "JAKMAN ASSIST is a powerful tool designed to enhance your online shopping experience. This extension combines the convenience of real-time price tracking, intelligent coupon prediction, and web scraping capabilities to help you find the best coupon deals.",
     "author":"JAKMAN bros",
-    "version": "0.1",
+    "version": "0.2",
     "permissions": [
         "activeTab"
       ],
